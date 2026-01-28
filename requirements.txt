@@ -1,0 +1,12 @@
+# Core dependencies
+python-dotenv==1.0.0
+
+# Message queue (Redis)
+redis==5.0.1
+
+# Note: All other dependencies are Python standard library
+# - urllib (HTTP requests for GitHub API)
+# - smtplib (email sending)
+# - sqlite3 (database)
+# - json, time, logging, etc.
+

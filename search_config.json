@@ -1,0 +1,40 @@
+{
+  "search_configurations": [
+    {
+      "location": "Florida",
+      "language": "react",
+      "min_followers": 200,
+      "max_results": 20000
+    },
+    {
+      "location": "New York",
+      "language": "javascript",
+      "min_followers": 15,
+      "max_results": 50
+    },
+    {
+      "location": "Seattle",
+      "language": "typescript",
+      "min_followers": 10,
+      "max_results": 50
+    },
+    {
+      "location": "Austin",
+      "language": "react",
+      "min_followers": 10,
+      "max_results": 50
+    },
+    {
+      "location": "Los Angeles",
+      "language": "java",
+      "min_followers": 10,
+      "max_results": 50
+    },
+    {
+      "location": "Boston",
+      "language": "ruby",
+      "min_followers": 10,
+      "max_results": 50
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+# Environment and Credentials
+.env
+*.env
+.env.*
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+email_search/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+*.log.*
+pipeline*.log
+pipeline*.txt
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Documentation (temporary)
+*_emails.txt
+CLEANUP_*.md
+EMAIL_FILTER_*.md
+EMAIL_TEMPLATE_*.md
+EXTRACT_*.txt
+RESTART_*.txt
+SCRAPER_*.md
+TEMPLATE_*.md
+CHANGES_COMPLETE.txt
+
+# Test files
+test_*.py
+check_*.py
+diagnose_*.py
+monitor_*.py
+verify_*.py
+debug_*.py
+fix_*.py
+find_*.py
