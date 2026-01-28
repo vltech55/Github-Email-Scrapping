@@ -1,7 +1,7 @@
 # Environment and Credentials
 .env
-*.env
-.env.*
+*.env.local
+*.env.production
 
 # Database
 *.db
@@ -60,11 +60,9 @@ SCRAPER_*.md
 TEMPLATE_*.md
 CHANGES_COMPLETE.txt
 
-# Test files
+# Test files (but keep essential monitoring scripts)
 test_*.py
-check_*.py
 diagnose_*.py
-monitor_*.py
 verify_*.py
 debug_*.py
 fix_*.py
